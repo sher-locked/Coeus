@@ -1,5 +1,6 @@
 package com.sherlocked.activitylifecycle;
 
+import android.content.res.Configuration;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -56,5 +57,11 @@ public class MainActivity extends ActionBarActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d("MESSAGE", "onDestroy was called");
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Log.d("ORIENTATION", "Orientation has changed");
     }
 }
