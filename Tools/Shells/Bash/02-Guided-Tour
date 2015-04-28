@@ -1,0 +1,42 @@
+This lists the important directories in the UNIX based OS.
+
+## / 
+Root directory of the file system.Usually contains sub-directories.
+
+## /boot
+This is where kernel and boot loader files are kept. The kernel is a file vimlinuz. 
+
+## /etc
+This direcotry contains the configuration files for the system. 
+/etc/passwd - Configuration file containing essential information of each user. It is here that users are defined.
+/etc/fstab - Configuration file containing a table of devices that get mounted when your system loads. It is here that that your disk drives are defined.
+/etc/hosts - File containing the list of network host names and IP addresses intrinsically known to the system.
+/etc/init.d - Contains scripts that system services load typically at boot time.
+   
+## /bin, /usr/bin
+These directories contain most of the programs of the system. 
+/bin - Contains essential programs for the system to operate.  
+/usr/bin - Contains programs of the system's users.
+
+## /usr
+This directory contains a variety of things that support user applications. 
+/usr/share/dict - Dictionary for the spelling checker.
+/usr/share/man - The man pages are here.
+/usr/local - Directory for installing software and packages to be used on the local machine.
+
+## /var
+This directory contains files that change as the system is running.
+/var/log - Contains log files that are updated as the system running.
+/var/spool/ - Contains files queued for some process, such as mail messages and print jobs.
+
+## /lib
+This directory contains shared libraries.
+
+## /home
+This directory contains the personal files and folders of the various users.
+
+## /dev
+This is a special directory that does not contain any files. Rather, it contains the devices that are available to the system. 
+
+## /proc
+This directory is also special. This directory also does not contain any files. In fact, this directory does not exist at all, it is entirely virtual.    

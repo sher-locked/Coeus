@@ -1,0 +1,39 @@
+# List current directory
+$ pwd
+
+# Change directories
+$ cd <path-name>
+
+# Go to home directory
+$ cd ~
+$ cd
+
+# Go to previous working directory
+$ cd -
+
+# List files in current directory
+$ ls
+
+# List files in long format
+$ ls -l
+
+# List all files in long format
+$ ls -la
+
+# Note: Long format has the following fields from left to right.
+# Permissions, Owner, Group, Size, Modification-Time & File-Name.
+
+# View a text
+$ less <file-name>
+
+# Controlling less
+$ b // back one page
+$ <space> // forward one page
+$ G // go to end of file
+$ 1+G // go to beginnig of file
+$ q // quit less
+
+# Examining files
+$ file <file/folder-name>   
+
+
