@@ -10,17 +10,10 @@
 </head>
 <body>
 	<div id="app-container"></div>
-
 	<script type="text/jsx">
 	/**
-	*
-	* Assignment:
-	* 1. Create another component
-	* 2. Nest it inside of an existing component, render something to the screen
-	*
-	*/
-
-
+	 * Defining re-usable components 
+	 */
 	var RecipeList = React.createClass({
 	  render: function() {
 	    return (
@@ -43,7 +36,7 @@
 
 	var RecipeBook = React.createClass({
 	  render: function() {
-	    /* component composition == function componsition */
+	    /* RecipeBook 'owns' RecipeList and RecipeForm */
 	    return (
 	      <div>
 	        Hello, world! I am a RecipeBook.
